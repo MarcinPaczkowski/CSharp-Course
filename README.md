@@ -1,5 +1,6 @@
 # CSharp-Course 
-This Introduction branch contains basic topics about learning C#;
+This Introduction branch contains basic topics about learning C#
+
 List of topics:
 1.	First app – Hello World
 2.	Declaring variables and consts
