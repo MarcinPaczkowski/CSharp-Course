@@ -11,7 +11,29 @@ namespace Introduction
         static void Main(string[] args)
         {
             // copy and paste code from section below to test how it works
+            new TestService().Start();
+            StaticClass.Method1(1);
             Console.ReadKey();
+        }
+
+        private static void ValueExample(int x)
+        {
+            x += 5;
+            Console.WriteLine(x);
+        }
+
+        private static void ReferenceExample(ref int x)
+        {
+            x += 5;
+            Console.WriteLine(x);
+        }
+
+        private static void TableExample(int[] tab)
+        {
+            for (int i = 0; i < tab.Length; i++)
+            {
+                tab[i] *= 2;
+            }
         }
 
         private static void HelloWorld()
