@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{49D27D58-C473-434F-A981-B2999E50C84B}</ProjectGuid>
+    <ProjectGuid>{58290305-8E25-4239-8D55-36C283B56355}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Introduction</RootNamespace>
-    <AssemblyName>Introduction</AssemblyName>
+    <RootNamespace>TddProgramming</RootNamespace>
+    <AssemblyName>TddProgramming</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -21,7 +21,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,7 +30,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,12 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
+    <Compile Include="ComplexNumber.cs" />
+    <Compile Include="ComplexNumbersService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticClass.cs" />
-    <Compile Include="TestEnum.cs" />
-    <Compile Include="TestService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

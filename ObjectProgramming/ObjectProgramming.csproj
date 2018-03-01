@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{49D27D58-C473-434F-A981-B2999E50C84B}</ProjectGuid>
+    <ProjectGuid>{0A0D95D5-0690-40C3-886E-C4EA1E74B8C7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Introduction</RootNamespace>
-    <AssemblyName>Introduction</AssemblyName>
+    <RootNamespace>ObjectProgramming</RootNamespace>
+    <AssemblyName>ObjectProgramming</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,12 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
+    <Compile Include="AbstractClass.cs" />
+    <Compile Include="AClass.cs" />
+    <Compile Include="ChildClass.cs" />
+    <Compile Include="GenericClass.cs" />
+    <Compile Include="IService.cs" />
+    <Compile Include="NewService.cs" />
+    <Compile Include="OldService.cs" />
+    <Compile Include="ParentClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticClass.cs" />
-    <Compile Include="TestEnum.cs" />
-    <Compile Include="TestService.cs" />
+    <Compile Include="SecondGenericClass.cs" />
+    <Compile Include="StringExtensionMethod.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
