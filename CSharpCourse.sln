@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddProgramming", "TddProgra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddProgramming.Tests", "TddProgramming.Tests\TddProgramming.Tests.csproj", "{59CAB63D-8EF8-4A31-8BA9-87C2A502EB60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthApp", "HealthApp\HealthApp.csproj", "{29955705-52FD-4959-A183-51FFB76E8AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthApp.Tests", "HealthApp.Tests\HealthApp.Tests.csproj", "{5B5509AB-FE23-41BE-8403-BB03CA037B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{59CAB63D-8EF8-4A31-8BA9-87C2A502EB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59CAB63D-8EF8-4A31-8BA9-87C2A502EB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59CAB63D-8EF8-4A31-8BA9-87C2A502EB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29955705-52FD-4959-A183-51FFB76E8AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29955705-52FD-4959-A183-51FFB76E8AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29955705-52FD-4959-A183-51FFB76E8AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29955705-52FD-4959-A183-51FFB76E8AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5509AB-FE23-41BE-8403-BB03CA037B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5509AB-FE23-41BE-8403-BB03CA037B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5509AB-FE23-41BE-8403-BB03CA037B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5509AB-FE23-41BE-8403-BB03CA037B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
